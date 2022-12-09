@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+/* first section(navBar section) */
+
+.navBar{
+    background: #F9F5FF;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:7vh;
+    width:100vw;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    font-size:1rem;
+    font-weight:400;
+    font-family: 'Montserrat';
+    position:fixed;
+    margin-right:2rem ;
+
+    
+    
+}
+.start{display:flex;
+gap:2rem;}
+.end{display:flex;
+gap:2rem;}
+.searchBar{display:flex;}
+.shapeContainer{
+    height:2rem;
+    width:2rem;
+}
+
+/* second section(banner section) */
+.banner{
+    margin-bottom:1rem;
+    /* height:43vh; */
+}
+.slides{
+    background:url('image1.webp');
+    height:40vh;
+    /* width:100vh; */
+    /* margin:2rem; */
+    margin-top: 1.75rem;
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-bottom:0.5rem;
+
+}
+.shape{
+    display:flex;
+    justify-content: center;
+    gap:0.4rem;
+    
+}
+.rectangle{
+    background: #E95850;
+    height:1rem;
+    width:2rem;
+    border-left: 50%;
+    border-right:50%;
+
+}
+.ellipse{
+    height:1rem;
+    width:1rem;
+    border-radius:50%;
+    background: #FDC8C5;
+}
+
+/* third section(our products) */
+.ourProducts{
+    /* border:2px solid red; */
+    margin:1rem;
+}
+.mainText{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.productsContainer{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.product{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.productImage{
+    background: url('specialYouImages/topImage4.webp');
+    background-size: contain;
+    height: 8rem;
+    width:8rem;
+    border-radius:50%;
+}
+
+/* fourth section(decorations for) */
+.wallpaper1{
+    background:url('specialYouImages/wallpaper1.jpg') ;
+    height:8vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.decorationMiddle{
+    display:flex;
+justify-content: center;
+align-items: center;
+margin-left:2rem;
+margin-right:2rem;
+}
+
+.sectionDecoration{
+    display:flex;
+flex-direction:column;
+}
+.decorationBottom{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.decorationButton{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #E95850;
+    color:white;
+    border:none;
+    cursor: pointer;
+    height:4rem;
+    width:20rem;
+    /* border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%; */
+    border-radius:6.25rem;
+    font-size: 1.2rem;
+
+
+
+}
+
+/* try this separately out only decoration Image*/
+.decorationImage{
+    background: url(specialYouImages/sliderImage1.webp);
+    height:16rem;
+    width:16rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius:10%;
+     margin:1rem; 
+}
+
+
+/* fifth section(best sellers) */
+.bestSellers{
+    display:flex;
+    flex-direction:column;
+    /* margin: */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #FEF8F4;
+
+
+}
+.bestSellersHeading{
+    text-align: center;
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+.bestSellersProducts {
+    display:flex;
+    justify-content: space-around;
+}
+.bestSellersImage{
+    background: url('specialYouImages/sliderImage1.webp');
+    background-size: cover;
+    height:20rem;
+    width:15rem;
+    border-radius:10%;
+}
+.bestSellersBottom{
+    margin-top: 1.5rem;
+    margin-bottom:1.5rem;
+}
+
+/*  sixth section(decoration for kids)  */
+
+.decorationForKids{
+    /* background:url('wallpaper2.webp'); */
+    background:url('specialYouImages/wallpaper2.webp');
+    background-size: cover;
+    border:1px solid red;
+}
+.decorationForKidsHeading{
+    text-align:center;
+     margin-top:2rem;
+    margin-bottom:2rem; 
+}
+.decorationForKidsThemes{
+    display:flex;
+    justify-content: space-around;
+
+}
+.theme{
+    height:8rem;
+    width:8rem;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.firstThem{ background: #E0F4FF;}
+.firstTheme{
+    height:6rem;
+    width:6rem;
+    background: url('specialYouImages/Doraemon.png');
+    background-size: cover;
+}
+
+.secondThem{
+    background: #FFE7F6;;
+}
+.secondTheme{
+    height:6rem;
+    width:6rem;
+    background: url('specialYouImages/Unicorn.png');
+    background-size: cover;
+}
+
+.thirdThem{ background: #FFD8D7;}
+.thirdTheme{
+    height:6rem;
+    width:6rem;
+    background: url('specialYouImages/Olaf.png');
+    background-size: cover;
+}
